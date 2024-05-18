@@ -1,8 +1,8 @@
 {
-  "id": "hero",
+  "id": "bento",
   "type": "SharedSlice",
-  "name": "Hero",
-  "description": "Hero",
+  "name": "Bento",
+  "description": "Bento",
   "variations": [
     {
       "id": "default",
@@ -16,9 +16,9 @@
           "type": "StructuredText",
           "config": {
             "label": "Heading",
-            "placeholder": "",
+            "placeholder": "Italic for gold text",
             "allowTargetBlank": true,
-            "single": "heading1"
+            "single": "heading2,em"
           }
         },
         "body": {
@@ -27,34 +27,38 @@
             "label": "Body",
             "placeholder": "",
             "allowTargetBlank": true,
-            "single": "paragraph"
+            "multi": "paragraph"
           }
-        },
-        "button_link": {
-          "type": "Link",
+        }
+      },
+      "items": {
+        "title": {
+          "type": "StructuredText",
           "config": {
-            "label": "button Link",
+            "label": "Title",
             "placeholder": "",
-            "select": null
+            "allowTargetBlank": true,
+            "single": "heading3"
           }
         },
-        "button_label": {
-          "type": "Text",
+        "body": {
+          "type": "StructuredText",
           "config": {
-            "label": "Button Label",
-            "placeholder": ""
+            "label": "Body",
+            "placeholder": "",
+            "allowTargetBlank": true,
+            "multi": "paragraph,em,strong"
           }
         },
-        "image": {
+        "bento_image": {
           "type": "Image",
           "config": {
-            "label": "Image",
+            "label": "Bento Image",
             "constraint": {},
             "thumbnails": []
           }
         }
-      },
-      "items": {}
+      }
     }
   ]
 }
