@@ -9,8 +9,8 @@ module.exports = {
     extend: {
       fontFamily: {
         sans: ["var(--font-dm-sans)"],
-      }
+      },
     },
   },
-  plugins: [],
-}
+  plugins: [require("@tailwindcss/typography")],
+};
