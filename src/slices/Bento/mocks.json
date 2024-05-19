@@ -9,8 +9,16 @@
 					{
 						"type": "heading2",
 						"content": {
-							"text": "Arrow"
-						}
+							"text": "The New \nGold Standard.",
+							"spans": [
+								{
+									"type": "em",
+									"start": 9,
+									"end": 23
+								}
+							]
+						},
+						"direction": "ltr"
 					}
 				]
 			},
@@ -20,8 +28,10 @@
 					{
 						"type": "paragraph",
 						"content": {
-							"text": "Quis laborum ipsum amet pariatur tempor exercitation eiusmod veniam duis veniam duis commodo excepteur. Dolor Lorem dolor reprehenderit ex voluptate incididunt pariatur qui voluptate."
-						}
+							"text": "Introducing a new way of building components and layouts that leaves everything else in the dust.",
+							"spans": []
+						},
+						"direction": "ltr"
 					}
 				]
 			}
@@ -82,6 +92,83 @@
 							"alt": null,
 							"__TYPE__": "ImageContent",
 							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": false
+						}
+					]
+				]
+			},
+			{
+				"__TYPE__": "GroupItemContent",
+				"value": [
+					[
+						"title",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "heading3",
+									"content": {
+										"text": "Lorem Ipsum",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"body",
+						{
+							"__TYPE__": "StructuredTextContent",
+							"value": [
+								{
+									"type": "paragraph",
+									"content": {
+										"text": "Commodo elit minim elit sint deserunt quis tempor anim duis elit non nulla tempor aliquip. Sit occaecat ex eu eiusmod voluptate ipsum sit anim cupidatat veniam adipisicing nulla cupidatat sunt dolor. Proident incididunt sit culpa duis in elit est ad veniam adipisicing laboris.",
+										"spans": []
+									},
+									"direction": "ltr"
+								}
+							]
+						}
+					],
+					[
+						"bento_image",
+						{
+							"url": "https://images.unsplash.com/photo-1613260976142-3e9700b7a6a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzE2MDU3NjI0fDA&ixlib=rb-4.0.3&q=85",
+							"alt": "orange fruits on blue ceramic bowl",
+							"origin": {
+								"id": "-QOUBSKHvAM",
+								"url": "https://images.unsplash.com/photo-1613260976142-3e9700b7a6a0?crop=entropy&cs=srgb&fm=jpg&ixid=M3wzMzc0NjN8MHwxfHNlYXJjaHwxNnx8Y2l0cnVzJTIwZnJ1aXR8ZW58MHx8fHwxNzE2MDU3NjI0fDA&ixlib=rb-4.0.3&q=85",
+								"width": 4960,
+								"height": 3594
+							},
+							"width": 4960,
+							"height": 3594,
+							"edit": {
+								"background": "transparent",
+								"zoom": 1,
+								"crop": {
+									"x": 0,
+									"y": 0
+								}
+							},
+							"credits": null,
+							"__TYPE__": "ImageContent",
+							"thumbnails": {}
+						}
+					],
+					[
+						"wide",
+						{
+							"__TYPE__": "BooleanContent",
+							"value": true
 						}
 					]
 				]
